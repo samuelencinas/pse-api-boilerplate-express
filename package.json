@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Samuel Encinas Plaza",
   "license": "ISC",
-  "description": "",
+  "description": "Express API boilerplate for PSE (2026)",
   "dependencies": {
     "express": "^5.2.1",
     "nodemon": "^3.1.14"
