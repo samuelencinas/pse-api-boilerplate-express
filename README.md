@@ -1,6 +1,6 @@
 # Express REST API Boilerplate - PSE 2026
 
-Este repositorio contiene un *boilerplate* o plantilla inicial para construir una API REST con Express. La plantilla contiene lo realizado a nivel *backend* durante el **Laboratorio 1** de la asignatura, es decir:
+Este repositorio contiene un *boilerplate* o plantilla inicial para construir una API REST con Express. La plantilla contiene lo realizado a nivel *backend* durante el **Laboratorio 1 y 2** de la asignatura, es decir:
 
 - Contiene un fichero `functions.js` con dos implementaciones del factorial recursivo, una como función *lambda* con condiciones ternarias y otra como función clásica.
 - Expone **tres *endpoints**:
