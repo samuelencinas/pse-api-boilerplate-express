@@ -6,9 +6,13 @@ Este repositorio contiene un *boilerplate* o plantilla inicial para construir un
 - Expone **tres *endpoints**:
   - `GET /`, que devuelve un *"hola mundo"*
   - `GET /factorial/:num`, que devuelve el factorial del *num* pasado por parámetro de query.
-  - `POST /factorial2`, que devuelve el factorial del *num* pasado como body en la propiedad **"numero"** y tiene manejo de errores.
+  - `POST /factorial2`, que devuelve el factorial del *num* pasado como body en la propiedad **"numero"**, lo guarda en base de datos y tiene manejo de errores.
 
 ## Uso
 
 1. Clonar el repositorio y `npm install` para instalar las dependencias
 2. `npm run start` para ejecutar el servidor
+
+## Changelog
+
+[09/03/2026] - Migrado el proyecto a TypeScript y añadida la integración de Prisma para PostgreSQL
